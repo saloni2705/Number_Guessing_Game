@@ -9,7 +9,7 @@ public class guessingGame {
         int Trails = 6;
         int i, guess;
 
-        System.out.println("Number Is In The Range 1-100. You Have 4 Trials To Guess The Number");
+        System.out.println("Number Is In The Range 1-100. You Have 6 Trials To Guess The Number");
 
         for (i = 0; i < Trails; i++) {
             System.out.println(" ");
@@ -30,7 +30,7 @@ public class guessingGame {
 
         if (i == Trails) {
             System.out.println(" ");
-            System.out.println("Better Luck Next Time :(  You have ran out your 4 trials.");
+            System.out.println("Better Luck Next Time :(  You have ran out your 6 trials.");
             System.out.println("The Number Was " + number );
         }
     }
